@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Join our community
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="encabezado tarjeta">
+        <h1 class="encabezado__h1">Join our community</h1>
+        <h2 class="encabezado__h2">30-day, hassle-free money back guarantee</h2>
+        <p class="encabezado__p">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="cont">
+        <div class="sub tarjeta">
+          <h3 class="sub__h3">Monthly Subscription</h3>
+          <div class="sub__price">
+            <h2 class="price__money">&dollar;29</h2>
+            <p class="price__p">per month</p>
+          </div>
+          <p class="sub__p">Full access for less than &dollar;1 a day</p>
+          <button class="sub__buttom" type="submit">Sign Up</button>
+        </div>
+        <div class="why tarjeta">
+          <h3 class="why__h3">Why Us</h3>
+          <p class="why__p">Tutorials by industry experts</p>
+          <p class="why__p">Peer &amp; expert code review</p>
+          <p class="why__p">Coding exercises</p>
+          <p class="why__p">Access to our GitHub repos</p>
+          <p class="why__p">Community forum</p>
+          <p class="why__p">Flashcard decks</p>
+          <p class="why__p">New videos every week</p>
+        </div>
+      </div>
+    </div>
 
-  30-day, hassle-free money back guarantee
-
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gastón Recalde</a>.
+      </p>
+    </footer>
+  </body>
 </html>
