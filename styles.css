@@ -10,6 +10,12 @@ body{
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     background: hsl(204, 43%, 93%);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .container{
@@ -101,6 +107,10 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sub__buttom:hover{
+    background-color: rgb(192, 223, 52, 75%);
+}
+
 .why{
     background: hsl(179, 61%, 46%);
     text-align: start;
@@ -161,4 +171,12 @@ body{
         text-align: start;
         width: 325px;
     }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
